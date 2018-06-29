@@ -1,0 +1,12 @@
+body {
+    background-image: url(../images/science.png);
+}
+
+.main-box {
+    min-height: 60vh;
+    background-color: lightskyblue;
+}
+
+.box-head {
+    font-family: 'Righteous';
+}
