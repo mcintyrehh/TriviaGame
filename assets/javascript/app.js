@@ -61,122 +61,122 @@ $( document ).ready(function() {
                 loadQuestion(questionBank.question3);
             },
         },
-        question3: {
-            q: "",
-            a: {
-                choice: "",
-                correct: ,
-                sub: ""
-            },
-            b: {
-                choice: "",
-                correct: ,
-                sub: ""
-            },
-            c: {
-                choice: "",
-                correct: ,
-                sub: ""
-            },
-            d: {
-                choice: "",
-                correct: ,
-                sub: "",
-            },
-            answer: "\"In 1945, the specific heating effect of a high-power microwave beam was accidentally discovered by Percy Spencer, an American self-taught engineer from Howland, Maine. Employed by Raytheon at the time, he noticed that microwaves from an active radar set he was working on started to melt a chocolate bar he had in his pocket.",
-            gif: "assets/images/...",
-            gitAlt: " gif",
-            nextQuestion: function() {
-                loadQuestion(questionBank.question4);
-            },
-        },
-        question4: {
-            q: "",
-            a: {
-                choice: "",
-                correct: ,
-                sub: ""
-            },
-            b: {
-                choice: "",
-                correct: ,
-                sub: ""
-            },
-            c: {
-                choice: "",
-                correct: ,
-                sub: ""
-            },
-            d: {
-                choice: "",
-                correct: ,
-                sub: "",
-            },
-            answer: "\"In 1945, the specific heating effect of a high-power microwave beam was accidentally discovered by Percy Spencer, an American self-taught engineer from Howland, Maine. Employed by Raytheon at the time, he noticed that microwaves from an active radar set he was working on started to melt a chocolate bar he had in his pocket.",
-            gif: "assets/images/...",
-            gitAlt: " gif",
-            nextQuestion: function() {
-                loadQuestion(questionBank.question5);
-            },
-        },
-        question5: {
-            q: "",
-            a: {
-                choice: "",
-                correct: ,
-                sub: ""
-            },
-            b: {
-                choice: "",
-                correct: ,
-                sub: ""
-            },
-            c: {
-                choice: "",
-                correct: ,
-                sub: ""
-            },
-            d: {
-                choice: "",
-                correct: ,
-                sub: "",
-            },
-            answer: "\"In 1945, the specific heating effect of a high-power microwave beam was accidentally discovered by Percy Spencer, an American self-taught engineer from Howland, Maine. Employed by Raytheon at the time, he noticed that microwaves from an active radar set he was working on started to melt a chocolate bar he had in his pocket.",
-            gif: "assets/images/...",
-            gitAlt: " gif",
-            nextQuestion: function() {
-                loadQuestion(questionBank.question6);
-            },
-        },
-        question6: {
-            q: "",
-            a: {
-                choice: "",
-                correct: ,
-                sub: ""
-            },
-            b: {
-                choice: "",
-                correct: ,
-                sub: ""
-            },
-            c: {
-                choice: "",
-                correct: ,
-                sub: ""
-            },
-            d: {
-                choice: "",
-                correct: ,
-                sub: "",
-            },
-            answer: "Until the 1960′s, the only reliable pregnancy test was to inject a woman’s urine into a female African clawed frog. If the woman was pregnant, the frog would ovulate within 12 hours.",
-            gif: "assets/images/kermit.gif",
-            gitAlt: "frog gif",
-            nextQuestion: function() {
-                loadQuestion(questionBank.question7);
-            },
-        },        
+        // question3: {
+        //     q: "",
+        //     a: {
+        //         choice: "",
+        //         correct: ,
+        //         sub: ""
+        //     },
+        //     b: {
+        //         choice: "",
+        //         correct: ,
+        //         sub: ""
+        //     },
+        //     c: {
+        //         choice: "",
+        //         correct: ,
+        //         sub: ""
+        //     },
+        //     d: {
+        //         choice: "",
+        //         correct: ,
+        //         sub: "",
+        //     },
+        //     answer: "\"In 1945, the specific heating effect of a high-power microwave beam was accidentally discovered by Percy Spencer, an American self-taught engineer from Howland, Maine. Employed by Raytheon at the time, he noticed that microwaves from an active radar set he was working on started to melt a chocolate bar he had in his pocket.",
+        //     gif: "assets/images/...",
+        //     gitAlt: " gif",
+        //     nextQuestion: function() {
+        //         loadQuestion(questionBank.question4);
+        //     },
+        // },
+        // question4: {
+        //     q: "",
+        //     a: {
+        //         choice: "",
+        //         correct: ,
+        //         sub: ""
+        //     },
+        //     b: {
+        //         choice: "",
+        //         correct: ,
+        //         sub: ""
+        //     },
+        //     c: {
+        //         choice: "",
+        //         correct: ,
+        //         sub: ""
+        //     },
+        //     d: {
+        //         choice: "",
+        //         correct: ,
+        //         sub: "",
+        //     },
+        //     answer: "\"In 1945, the specific heating effect of a high-power microwave beam was accidentally discovered by Percy Spencer, an American self-taught engineer from Howland, Maine. Employed by Raytheon at the time, he noticed that microwaves from an active radar set he was working on started to melt a chocolate bar he had in his pocket.",
+        //     gif: "assets/images/...",
+        //     gitAlt: " gif",
+        //     nextQuestion: function() {
+        //         loadQuestion(questionBank.question5);
+        //     },
+        // },
+        // question5: {
+        //     q: "",
+        //     a: {
+        //         choice: "",
+        //         correct: ,
+        //         sub: ""
+        //     },
+        //     b: {
+        //         choice: "",
+        //         correct: ,
+        //         sub: ""
+        //     },
+        //     c: {
+        //         choice: "",
+        //         correct: ,
+        //         sub: ""
+        //     },
+        //     d: {
+        //         choice: "",
+        //         correct: ,
+        //         sub: "",
+        //     },
+        //     answer: "\"In 1945, the specific heating effect of a high-power microwave beam was accidentally discovered by Percy Spencer, an American self-taught engineer from Howland, Maine. Employed by Raytheon at the time, he noticed that microwaves from an active radar set he was working on started to melt a chocolate bar he had in his pocket.",
+        //     gif: "assets/images/...",
+        //     gitAlt: " gif",
+        //     nextQuestion: function() {
+        //         loadQuestion(questionBank.question6);
+        //     },
+        // },
+        // question6: {
+        //     q: "",
+        //     a: {
+        //         choice: "",
+        //         correct: ,
+        //         sub: ""
+        //     },
+        //     b: {
+        //         choice: "",
+        //         correct: ,
+        //         sub: ""
+        //     },
+        //     c: {
+        //         choice: "",
+        //         correct: ,
+        //         sub: ""
+        //     },
+        //     d: {
+        //         choice: "",
+        //         correct: 
+        //         sub: "",
+        //     },
+            // answer: "Until the 1960′s, the only reliable pregnancy test was to inject a woman’s urine into a female African clawed frog. If the woman was pregnant, the frog would ovulate within 12 hours.",
+            // gif: "assets/images/kermit.gif",
+            // gitAlt: "frog gif",
+            // nextQuestion: function() {
+            //     loadQuestion(questionBank.question7);
+            // },
+        // },        
         
     };
 
