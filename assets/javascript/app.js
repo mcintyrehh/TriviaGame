@@ -343,7 +343,7 @@ $(document).ready(function () {
                 $('#question').html(questionNumber.answer);
                 $('#secs').empty();
                 clearInterval(countDown);
-                setTimeout(questionNumber.nextQuestion, 5000);
+                setTimeout(questionNumber.nextQuestion, 8000);
             }
         }, 1000);
         var trueFalse;
@@ -360,7 +360,7 @@ $(document).ready(function () {
                 $('.timer').html('<div class="nope">Nope!<div>');
                 $('#answer-box').html('<img src="' + questionNumber.gif + '" alt="answer gif">');
                 $('#question').html(questionNumber.answer);
-                setTimeout(questionNumber.nextQuestion, 5000);
+                setTimeout(questionNumber.nextQuestion, 8000);
 
             }
             else if (trueFalse === "true" || !gameOver) {
@@ -370,7 +370,7 @@ $(document).ready(function () {
                 $('.timer').html('<div class="yup">Yup!<div>');
                 $('#answer-box').html('<img src="' + questionNumber.gif + '" alt="answer gif">');
                 $('#question').html(questionNumber.answer);
-                setTimeout(questionNumber.nextQuestion, 5000);
+                setTimeout(questionNumber.nextQuestion, 8000);
             }
 
         });

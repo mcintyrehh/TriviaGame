@@ -3,9 +3,6 @@ body {
     font-family: 'Roboto';
 }
 
-.top {
-    /* height: 20px; */
-}
 .btn-text {
     border-color: black;
     color: black;
@@ -27,6 +24,7 @@ body {
     font-size: 50pt;
     font-weight: bold;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 .restart {
     color: lime;
@@ -37,6 +35,7 @@ body {
     margin-bottom: 20px;
     text-shadow:2px 2px 0 rgb(0, 0, 0);
 }
+
 .question-block {
     height: 100%;
 }
@@ -74,8 +73,16 @@ body {
     /* For mobile phones: */
     [class*="col-"] {
         width: 100%;
+        justify-content: center;
     }
     img {
         width: 90vw;
+    }
+    .main-box {
+        width: 95vw;
+        margin-bottom: 10px;
+    }
+    .box-header {
+        text-align: center;
     }
 }
