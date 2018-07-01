@@ -347,7 +347,7 @@ $(document).ready(function () {
             }
         }, 1000);
         var trueFalse;
-        $('.multiple-choice').on('click', function () {
+        $('.multiple-choice').on("click", function () {
             var trueFalse = $(this).val();
             console.log(trueFalse);
             if (numberRight + numberWrong === 10 || !gameOver) {

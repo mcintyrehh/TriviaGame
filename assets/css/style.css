@@ -85,4 +85,9 @@ body {
     .box-header {
         text-align: center;
     }
+    
+    a:hover {
+        border: none;
+        background: none;
+    }
 }
